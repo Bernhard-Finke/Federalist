@@ -91,4 +91,4 @@ for paper_key in disputed_vocab.keys():
     predictions.append(neigh.predict(np.reshape(disputed_vocab[paper_key], (1, -1))))
 
 
-print("The K-nearest neighbors algorithm correctly predicts " + str(correct) + " of the 12 disputed Federalist Papers.")
+print("The K-nearest neighbors algorithm correctly predicts " + str(correct) + " of the 12 disputed Federalist Papers as Madison's.")
